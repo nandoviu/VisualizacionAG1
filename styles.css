@@ -21,6 +21,7 @@ body {
   height: auto;
 }
 
+/* Título principal */
 .titulo-principal {
   font-family: 'Oswald', sans-serif;
   font-weight: 700;
@@ -37,14 +38,17 @@ h2 {
   font-size: 1.4rem;
   margin-top: 2rem;
   margin-bottom: 1rem;
+  page-break-inside: avoid;
 }
 
 h3 {
   font-family: 'Oswald', sans-serif;
   font-weight: 700;
   color: #999999;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   margin-top: 1rem;
+  margin-bottom: 1rem;
+  page-break-inside: avoid;
 }
 
 /* Bloque de información personal */
@@ -78,10 +82,16 @@ h3 {
 /* Contenedores de los gráficos */
 .iframe-container {
   margin-bottom: 2rem;
+  page-break-inside: avoid;
 }
 
 .iframe-container iframe {
   width: 100%;
   height: 500px;
   border: none;
+}
+
+/* Fuerza salto de página antes de ciertos bloques */
+.salto-pagina {
+  page-break-before: always;
 }
