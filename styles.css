@@ -1,0 +1,87 @@
+/* Estructura general */
+body {
+  font-family: Arial, sans-serif;
+  color: #999999;
+  padding: 2rem;
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+/* Cabecera horizontal con logo + título */
+.cabecera-horizontal {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.cabecera-horizontal img {
+  max-width: 175px;
+  height: auto;
+}
+
+.titulo-principal {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
+  color: #ff6d01;
+  font-size: 2rem;
+  margin: 0;
+}
+
+/* Subtítulos de gráficos */
+h2 {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
+  color: #ff8c33;
+  font-size: 1.4rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+h3 {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
+  color: #999999;
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}
+
+/* Bloque de información personal */
+.info-bloque {
+  font-family: 'Oswald', sans-serif;
+  margin-top: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.info-bloque .etiqueta {
+  font-weight: 700;
+  color: #555555;
+}
+
+.info-bloque .valor {
+  font-family: Arial, sans-serif;
+  color: #777777;
+}
+
+.info-bloque a {
+  font-style: italic;
+  font-family: Arial, sans-serif;
+  color: #777777;
+  text-decoration: none;
+}
+
+.info-bloque a:hover {
+  text-decoration: underline;
+}
+
+/* Contenedores de los gráficos */
+.iframe-container {
+  margin-bottom: 2rem;
+}
+
+.iframe-container iframe {
+  width: 100%;
+  height: 500px;
+  border: none;
+}
