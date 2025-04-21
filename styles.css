@@ -40,6 +40,15 @@ h1 {
   page-break-inside: avoid;
 }
 
+/* h1 que contiene imagen + texto */
+.h1-con-icono {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
 /* Subtítulos de gráficos */
 h2 {
   font-family: 'Oswald', sans-serif;
@@ -104,4 +113,11 @@ h3 {
 /* Fuerza salto de página antes de ciertos bloques */
 .salto-pagina {
   page-break-before: always;
+}
+
+.titulo-con-logo {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: #ff6d01;
 }
